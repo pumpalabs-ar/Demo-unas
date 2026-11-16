@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Uñas y estética en Haedo | Lumi Nails</title>
+<meta name="description" content="Uñas y estética en Haedo: semipermanente, esculpidas, cejas y pestañas. Armá tu pedido en la web y reservá tu turno por WhatsApp. Martes a sábado.">
+<meta name="theme-color" content="#7b2d52">
+<!-- Subir og-image.jpg (1200x630) a la raíz del proyecto, junto a index.html -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lumi Nails — Uñas y estética en Haedo">
+<meta property="og:description" content="Uñas y estética en Haedo: semipermanente, esculpidas, cejas y pestañas. Armá tu pedido en la web y reservá tu turno por WhatsApp. Martes a sábado.">
+<meta property="og:url" content="https://pumpalabs-ar.github.io/Demo-unas/">
+<meta property="og:image" content="https://pumpalabs-ar.github.io/Demo-unas/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lumi Nails — Uñas y estética en Haedo">
+<meta name="twitter:description" content="Uñas y estética en Haedo: semipermanente, esculpidas, cejas y pestañas. Armá tu pedido en la web y reservá tu turno por WhatsApp. Martes a sábado.">
+<meta name="twitter:image" content="https://pumpalabs-ar.github.io/Demo-unas/og-image.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237b2d52'/%3E%3Crect x='24' y='8' width='16' height='14' rx='3' fill='%23ffffff'/%3E%3Crect x='18' y='22' width='28' height='34' rx='8' fill='%23fdf6f8'/%3E%3Crect x='25' y='32' width='14' height='16' rx='4' fill='%237b2d52'/%3E%3C/svg%3E">
+<style>
+:root{--c:#7b2d52;--bg:#fdf6f8;--tx:#1d1d1f;--mu:#675660}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+#cli{padding-bottom:104px}
+[hidden]{display:none!important}
+:focus-visible{outline:3px solid var(--c);outline-offset:2px}
+header{background:var(--c);color:#fff;padding:28px 20px 22px}
+header .logo{font-size:40px}
+header h1{font-size:26px;margin-top:6px}
+header p{opacity:.9;margin-top:4px;font-size:15px}
+.info{display:flex;gap:8px;flex-wrap:wrap;padding:14px 20px}
+.info span{background:#fff;border:1px solid #eadde3;border-radius:20px;padding:6px 12px;font-size:13px}
+nav{position:sticky;top:0;background:var(--bg);display:flex;gap:8px;overflow-x:auto;padding:10px 20px;border-bottom:1px solid #eadde3;z-index:2}
+nav a{white-space:nowrap;text-decoration:none;color:var(--tx);font-size:14px;padding:6px 12px;border-radius:16px;background:#fff;border:1px solid #eadde3}
+.steps{list-style:none;display:flex;gap:8px;padding:14px 20px 0;counter-reset:p}
+.steps li{flex:1;background:#fff;border:1px solid #eadde3;border-radius:12px;padding:10px;font-size:13px;display:flex;flex-direction:column;gap:6px;counter-increment:p}
+.steps li::before{content:counter(p);width:24px;height:24px;border-radius:50%;background:var(--c);color:#fff;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.cathead{padding:18px 20px 0;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.cathead h2{font-size:21px}
+.cathead small{color:var(--mu);font-size:12px}
+section{padding:18px 20px 4px}
+section h2{font-size:19px;margin-bottom:10px}
+.item{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.item .em{font-size:30px;width:48px;height:48px;display:flex;align-items:center;justify-content:center;background:#f6e9ef;border-radius:12px;flex-shrink:0}
+.item .tx{flex:1;min-width:0}
+.item b{display:block;font-size:15px}
+.item small{color:var(--mu);font-size:13px}
+.item .pr{font-weight:700;margin-top:2px;font-size:14px}
+.q{display:flex;align-items:center;gap:6px}
+.q button{width:32px;height:32px;border-radius:50%;border:none;background:var(--c);color:#fff;font-size:18px;cursor:pointer}
+.q button.m{background:#ddd;color:#333}
+.q span{min-width:16px;text-align:center;font-weight:700}
+.extra{padding:10px 20px}
+.extra label.l{display:block;margin-top:6px}
+.extra textarea,.extra input[type=text]{width:100%;border:1px solid #ddd;border-radius:10px;padding:10px;font:inherit;margin-top:6px;background:#fff}
+.chips{display:flex;gap:8px;margin-top:6px}
+.chips button{border:1px solid #ddd;background:#fff;border-radius:16px;padding:6px 14px;font:inherit;font-size:13px;color:var(--tx);cursor:pointer}
+.promo{display:flex;gap:8px;align-items:center;margin-top:12px;font-size:14px}
+.map{margin:16px 20px;padding:14px;background:#fff;border-radius:14px;font-size:14px}
+.map a{color:var(--c);font-weight:600}
+footer{text-align:center;color:var(--mu);font-size:12px;padding:20px}
+.lnk{background:none;border:none;color:var(--c);font:inherit;font-size:12px;text-decoration:underline;cursor:pointer}
+.bar{position:fixed;left:0;right:0;bottom:0;padding:12px 16px;background:#fff;box-shadow:0 -2px 10px rgba(0,0,0,.08);display:flex;gap:10px;align-items:center}
+.bar .tot{flex:1;font-size:14px}
+.bar .tot b{font-size:17px;display:block}
+.bar .vaciar{border:1px solid #ddd;background:#fff;border-radius:10px;padding:8px 12px;font:inherit;font-size:13px;color:var(--tx);cursor:pointer}
+.bar .vaciar:disabled{opacity:.5;cursor:default}
+.bar a{background:#25D366;color:#063d1c;text-decoration:none;font-weight:700;padding:13px 18px;border-radius:12px;font-size:15px}
+.bar a.off{opacity:.45;pointer-events:none}
+.demo{background:#fff3cd;color:#664d03;font-size:12px;text-align:center;padding:6px}
+.sello{background:#fff;border-bottom:1px solid #eadde3;color:#4a4a50;font-size:12px;text-align:center;padding:6px 12px}
+.sello a{color:var(--c);font-weight:700}
+#own{padding:0 0 40px}
+.ot{background:var(--c);color:#fff;display:flex;justify-content:space-between;align-items:center;padding:14px 20px}
+.ot button{background:#fff;color:var(--c);border:none;border-radius:10px;padding:8px 14px;font-weight:700;cursor:pointer}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding:10px 20px;border-bottom:1px solid #eadde3}
+.tabs button{white-space:nowrap;border:1px solid #eadde3;background:#fff;border-radius:16px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
+.tabs button.on{background:var(--c);color:#fff;border-color:var(--c)}
+.dm{background:#fff3cd;color:#664d03;font-size:12px;text-align:center;padding:5px}
+#pn{padding:14px 20px}
+#pn h3{font-size:17px;margin:14px 0 8px}
+.card{background:#fff;border-radius:14px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.card .r{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.card small{color:var(--mu);font-size:13px;display:block}
+.fm{display:grid;gap:8px}
+.fm input,.fm select,.fm textarea,#ov input,#pn input,#pn select{width:100%;border:1px solid #ddd;border-radius:10px;padding:10px;font:inherit;background:#fff}
+.b1,.b2{border:none;border-radius:10px;padding:10px 14px;font:inherit;font-weight:700;cursor:pointer}
+.b1{background:var(--c);color:#fff}
+.b2{background:#eee4e8;color:var(--tx)}
+.b3{background:#a4262c;color:#fff}
+.tg{font-size:12px;font-weight:700;padding:3px 9px;border-radius:12px;white-space:nowrap}
+.v{background:#d7f0dc;color:#14532d}.a{background:#fdeeb3;color:#5b4300}.rj{background:#f8d3d3;color:#7a1414}
+.kp{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.kp .card{text-align:center}.kp b{font-size:28px;display:block}
+.ms{display:grid;gap:6px;margin-top:10px}
+#ov{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:16px;z-index:9;overflow:auto}
+#ov .box{background:#fff;border-radius:16px;padding:18px;width:100%;max-width:420px;display:grid;gap:10px;max-height:92vh;overflow:auto}
+#ov .row{display:flex;gap:8px;justify-content:flex-end}
+#tt{position:fixed;left:16px;right:16px;bottom:16px;background:#1d1d1f;color:#fff;border-radius:12px;padding:12px 14px;font-size:14px;z-index:10}
+</style>
+</head>
+<body>
+<div id="cli">
+<div class="demo">Demo de ejemplo armada por PUMPALABS</div>
+<div class="sello">Demo hecha por Diego Napoli · <a id="vende" href="https://wa.me/5491133868669?text=Hola%20Diego%2C%20vi%20la%20demo%20de%20u%C3%B1as%20y%20quiero%20una%20web%20as%C3%AD%20para%20mi%20comercio." target="_blank" rel="noopener">¿Querés una web así para tu comercio?</a></div>
+<header><div class="logo" role="img" aria-label="Uñas">💅</div><h1 id="neg">Lumi Nails</h1><p>Uñas y estética · Haedo</p></header>
+<div class="info"><span>🕘 Mar a Sáb 9 a 19 h</span><span>💳 Efectivo, transferencia y débito</span><span>📸 @tuestudio</span></div>
+<nav id="nav" aria-label="Categorías"></nav>
+<ol class="steps"><li>Elegí lo que necesitás</li><li>Sumá las cantidades</li><li>Enviá el pedido por WhatsApp</li></ol>
+<main id="cat"><div class="cathead"><h2>Catálogo</h2><small>Precios de ejemplo. Se ajustan a cada local.</small></div></main>
+<div class="extra">
+<label class="l" for="nota">Día y horario que preferís</label>
+<div class="chips"><button type="button" data-v="Hoy">Hoy</button><button type="button" data-v="Mañana">Mañana</button><button type="button" data-v="Sábado">Sábado</button></div>
+<textarea id="nota" rows="2" placeholder="Ej: sábado a las 10:30"></textarea>
+<label class="l" for="nombre">Tu nombre</label>
+<input id="nombre" type="text" placeholder="Ej: Valentina">
+<label class="promo"><input type="checkbox" id="promo"> Quiero recibir promociones</label>
+</div>
+<div class="map">📍 Haedo centro (dirección de ejemplo)<br><a href="https://www.google.com/maps/search/?api=1&amp;query=Haedo%20centro%2C%20Buenos%20Aires" target="_blank" rel="noopener">Cómo llegar</a></div>
+<footer>Catálogo con pedidos por WhatsApp<br><button type="button" class="lnk" id="dueno">Dueño</button></footer>
+<div class="bar"><div class="tot" aria-live="polite"><span id="cnt">Total</span><b id="sum">$0</b></div><button type="button" class="vaciar" id="vaciar">Vaciar</button><a id="go" href="https://wa.me/5491133868669?text=Hola%2C%20quiero%20reservar%20un%20turno" target="_blank" rel="noopener">Reservar por WhatsApp</a></div>
+</div>
+<div id="own" hidden>
+<div class="ot"><b id="onm">Panel del dueño</b><button type="button" id="salir">Salir</button></div>
+<div id="bn"></div>
+<div class="tabs" id="tabs"></div>
+<div id="pn"></div>
+</div>
+<div id="ov" hidden></div>
+<div id="tt" hidden></div>
+<script>
+/* PARA ADAPTAR A OTRO RUBRO: cambiá (1) el array DATA, (2) el nombre del negocio (title, h1, og:title y la constante NEG), (3) la dirección (bloque .map y enlace de Maps) y (4) la constante WA.
+Los enlaces wa.me del HTML son respaldo si el JS no carga: el JS los reescribe con WA.
+Claves de DATA: cat = categoría, items = lista; e = emoji, n = nombre, d = descripción, p = precio en pesos. */
+const WA="5491133868669";
+const NEG="Lumi Nails",K_C="unas_carrito",K_D="unas_clientes";
+const LIM1=25,LIM2=45,W=30,N0=10;
+const LB=["Al día","Se está pasando","Inactivo"];
+const DATA=[
+{cat:"Manos",items:[
+{e:"💅",n:"Semipermanente",d:"Esmaltado duradero, 45 min",p:18000},
+{e:"✨",n:"Capping",d:"Refuerzo sobre uña natural",p:24000},
+{e:"💎",n:"Esculpidas soft gel",d:"Largo y forma a elección",p:32000}]},
+{cat:"Pies",items:[
+{e:"🦶",n:"Belleza de pies",d:"Limpieza y esmaltado",p:16000},
+{e:"🌸",n:"Pedicura semipermanente",d:"Incluye hidratación",p:21000}]},
+{cat:"Cejas y pestañas",items:[
+{e:"🪄",n:"Perfilado de cejas",d:"Diseño según tu rostro",p:9000},
+{e:"👁️",n:"Lifting de pestañas",d:"Rizado y nutrición",p:22000}]},
+{cat:"Extras",items:[
+{e:"🎨",n:"Nail art (por uña)",d:"Dibujos, piedras o glitter",p:1500},
+{e:"🧼",n:"Retiro de material",d:"Sin dañar la uña",p:6000}]}
+];
+const $=id=>document.getElementById(id);
+const fmt=n=>"$"+n.toLocaleString("es-AR");
+const wa=t=>"https://wa.me/"+WA+"?text="+encodeURIComponent(t);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const q={};
+const cat=$("cat"),nav=$("nav"),go=$("go");
+DATA.forEach((s,si)=>{const id="s"+si;nav.insertAdjacentHTML("beforeend",`<a href="#${id}">${s.cat}</a>`);
+let h=`<section id="${id}"><h2>${s.cat}</h2>`;s.items.forEach((it,ii)=>{const k=si+"-"+ii;q[k]=0;
+h+=`<div class="item"><div class="em" aria-hidden="true">${it.e}</div><div class="tx"><b>${it.n}</b><small>${it.d}</small><div class="pr">${fmt(it.p)}</div></div><div class="q"><button type="button" class="m" aria-label="Quitar ${it.n}" onclick="ch('${k}',-1)">−</button><span id="q${k}">0</span><button type="button" aria-label="Agregar ${it.n}" onclick="ch('${k}',1)">+</button></div></div>`});
+cat.insertAdjacentHTML("beforeend",h+"</section>")});
+function ch(k,d){q[k]=Math.max(0,q[k]+d);$("q"+k).textContent=q[k];upd()}
+function sel(){const r=[];for(const k in q)if(q[k]){const[a,b]=k.split("-");r.push({it:DATA[a].items[b],n:q[k]})}return r}
+function msg(r,t){const no=$("nota").value.trim(),nm=$("nombre").value.trim();
+let m=nm?"Soy "+nm+". Quiero reservar un turno:\n":"Hola, quiero reservar un turno:\n";
+if(r.length){r.forEach(x=>m+=`• ${x.n} x ${x.it.n} (${fmt(x.it.p*x.n)})\n`);m+="Total: "+fmt(t)+"\n"}else m+="Quiero consultar por un turno.\n";
+if(no)m+="Día y horario que preferís: "+no+"\n";
+if($("promo").checked)m+="Quiero recibir promociones\n";
+return m.trim()}
+function saveC(){try{const o={};for(const k in q)if(q[k])o[k]=q[k];if(Object.keys(o).length)localStorage.setItem(K_C,JSON.stringify(o));else localStorage.removeItem(K_C)}catch(e){}}
+function loadC(){try{const s=JSON.parse(localStorage.getItem(K_C)||"{}");for(const k in s)if(k in q&&Number.isInteger(s[k])&&s[k]>0){q[k]=s[k];$("q"+k).textContent=s[k]}}catch(e){}}
+function upd(){const r=sel();const t=r.reduce((s,x)=>s+x.it.p*x.n,0),c=r.reduce((s,x)=>s+x.n,0);
+$("sum").textContent=fmt(t);$("cnt").textContent=c?"Total · "+c+(c===1?" servicio":" servicios"):"Total";
+const off=!c;go.setAttribute("aria-disabled",String(off));go.tabIndex=off?-1:0;go.classList.toggle("off",off);$("vaciar").disabled=off;
+go.href=wa(msg(r,t));saveC()}
+function vaciar(){for(const k in q){q[k]=0;$("q"+k).textContent=0}try{localStorage.removeItem(K_C)}catch(e){}upd()}
+go.addEventListener("click",e=>{if(go.getAttribute("aria-disabled")==="true")e.preventDefault()});
+$("vaciar").addEventListener("click",vaciar);
+["nota","nombre"].forEach(i=>$(i).addEventListener("input",upd));
+$("promo").addEventListener("change",upd);
+document.querySelectorAll(".chips button").forEach(b=>b.addEventListener("click",()=>{$("nota").value=b.dataset.v;upd()}));
+$("vende").href=wa("Hola Diego, vi la demo de uñas y quiero una web así para mi comercio.");
+
+const D=864e5,p2=n=>String(n).padStart(2,"0");
+const today=()=>{const d=new Date();d.setHours(0,0,0,0);return d};
+const ago=n=>{const d=today();d.setDate(d.getDate()-n);return d};
+const iso=d=>d.getFullYear()+"-"+p2(d.getMonth()+1)+"-"+p2(d.getDate());
+const parse=s=>new Date(s+"T00:00:00");
+const ddmm=d=>p2(d.getDate())+"/"+p2(d.getMonth()+1);
+const diff=s=>Math.round((today()-parse(s))/D);
+const uid=()=>Math.random().toString(36).slice(2,9);
+const MSG={
+ag:"{nombre}, ¿cómo quedaron? Si te gustaron, dejame una reseña acá, me ayuda un montón: [LINK RESEÑA]",
+re:"{nombre}, ya es hora de renovar las uñas. Tengo lugar el sábado a la mañana, ¿te lo guardo?",
+cu:"{nombre}, se viene tu cumple. Esa semana el servicio te lo dejo con 20% off. Avisame y te ubico.",
+ra:"{nombre}, hace banda que no te veo. Los martes tengo lugar y te dejo el precio de antes. ¿Te espero?",
+rf:"{nombre}, esta semana traeme una amiga y las dos tienen 20% off. Que diga tu nombre cuando venga."};
+const MLB={ag:"Agradecimiento",re:"Recordatorio",cu:"Cumpleaños",ra:"Reactivación",rf:"Referido"};
+let S=null,tab="cl",ov=$("ov");
+function loadS(){try{const r=localStorage.getItem(K_D);if(r)S=JSON.parse(r)}catch(e){S=null}}
+function saveS(){try{localStorage.setItem(K_D,JSON.stringify(S))}catch(e){}}
+function seed(cfg){
+const N=[
+["Valentina Ríos","semipermanente rosa pastel, uñas cortas",3,"14/03",400,8],
+["Camila Benítez","esculpidas almendra, largo medio",9,"02/08",20,2],
+["Florencia Aguirre","piel sensible, consultar productos",18,"27/11",210,9],
+["Luciana Molina","prefiere turno mañana",26,"19/05",180,6],
+["Agustina Vega","capping, colores nude",28,"08/10",300,8],
+["Rocío Paz","diseños con piedras y glitter",40,"30/01",150,4],
+["Sofía Cabrera","viene con su hermana",48,"11/06",520,10],
+["Micaela Suárez","retiro de material y renovación",62,"23/09",260,7],
+["Jimena Ortiz","pedicura semipermanente",78,"05/12",340,3],
+["Brenda Domínguez","cejas y pestañas, turno tarde",94,"16/04",400,2]];
+const cl=N.map((a,i)=>({id:uid(),nombre:a[0],tel:"11-5555-"+String(i+1).padStart(4,"0"),notas:a[1],cum:a[3],d:1,dsv:a[2],ad:a[4],v:a[5],canj:0}));
+S={cfg:cfg||{negocio:NEG,pin:"1234",n:N0,resena:"[LINK RESEÑA]"},demo:true,clientes:cl,
+prospectos:[{id:uid(),nombre:"Daniela Herrera",tel:"11-5555-0011",origen:"consultó por Instagram",estado:"consultó"},{id:uid(),nombre:"Carolina Castro",tel:"11-5555-0012",origen:"consultó por Instagram",estado:"presupuestó"}]};
+saveS()}
+const dias=c=>c.ult?diff(c.ult):c.d?c.dsv:diff(c.alta);
+const altaDias=c=>c.d?c.ad:diff(c.alta);
+const altaD=c=>c.d?ago(c.ad):parse(c.alta);
+const tieneV=c=>!!(c.ult||c.d);
+const disp=c=>Math.max(0,Math.floor(c.v/S.cfg.n)-(c.canj||0));
+const tag=c=>{const d=dias(c);return d<=LIM1?["v",LB[0]]:d<=LIM2?["a",LB[1]]:["rj",LB[2]]};
+function real(c){if(!c.d)return;c.alta=iso(ago(c.ad));c.ult=iso(ago(c.dsv));delete c.d;delete c.dsv;delete c.ad}
+function toast(t){const e=$("tt");e.textContent=t;e.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>e.hidden=true,3500)}
+function ask(m,o){o=o||{};return new Promise(r=>{ov.innerHTML=`<div class="box" role="dialog" aria-modal="true"><p>${m}</p>${o.inp?`<input id="ai" type="${o.type||"text"}" placeholder="${o.ph||""}" autocomplete="off">`:""}<div class="row"><button type="button" class="b2" id="ac">Cancelar</button><button type="button" class="b1${o.red?" b3":""}" id="ak">${o.ok||"Aceptar"}</button></div></div>`;ov.hidden=false;const i=$("ai");if(i)i.focus();$("ac").onclick=()=>{ov.hidden=true;r(null)};$("ak").onclick=()=>{ov.hidden=true;r(i?i.value:true)}})}
+function entrar(){loadS();if(!S)seed();$("cli").hidden=true;$("own").hidden=false;tab="cl";rn();scrollTo(0,0)}
+async function pedirPin(){loadS();const pin=S?S.cfg.pin:"1234";
+const v=await ask("Ingresá el PIN del dueño.<br><small>PIN de demo: 1234 · Es una barrera de acceso, no seguridad</small>",{inp:1,type:"password",ph:"PIN",ok:"Entrar"});
+if(v===null)return;if(v===pin)entrar();else{toast("PIN incorrecto");}}
+$("dueno").addEventListener("click",pedirPin);
+$("salir").addEventListener("click",()=>{$("own").hidden=true;$("cli").hidden=false;scrollTo(0,0)});
+function rn(){
+$("onm").textContent=S.cfg.negocio+" · Dueño";$("neg").textContent=S.cfg.negocio;
+$("bn").innerHTML=S.demo?`<div class="dm">Estás viendo datos de ejemplo · <button type="button" class="lnk" onclick="tab='aj';rn()">Ir a Ajustes</button></div>`:"";
+const T=[["cl","Clientes"],["pr","Prospectos"],["pa","Panel"],["da","Datos"],["aj","Ajustes"]];
+$("tabs").innerHTML=T.map(t=>`<button type="button" class="${tab===t[0]?"on":""}" onclick="tab='${t[0]}';rn()">${t[1]}</button>`).join("");
+({cl:vCl,pr:vPr,pa:vPa,da:vDa,aj:vAj})[tab]()}
+function vCl(){
+$("pn").innerHTML=`<h3>Nuevo cliente</h3><div class="fm"><input id="fn" placeholder="Nombre y apellido" aria-label="Nombre"><input id="ft" type="tel" placeholder="Teléfono (11-5555-0000)" aria-label="Teléfono"><input id="fc" placeholder="Cumpleaños dd/mm" aria-label="Cumpleaños"><input id="fo" placeholder="Notas" aria-label="Notas"><button type="button" class="b1" onclick="addC()">Agregar cliente</button></div><h3>Clientes</h3><input id="bq" placeho
